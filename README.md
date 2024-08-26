@@ -18,7 +18,7 @@ This loads the readr package, which provides functions for reading data, such as
 - View(creditcard): This opens a spreadsheet-style viewer to inspect the contents of the creditcard data frame.
 
 
-Importing Required Libraries and Additional Datasets
+# Importing Required Libraries and Additional Datasets
 
 ```
 # Detecting Credit Card Fraud
@@ -36,7 +36,7 @@ library(data.table)
 
 
 
-Data Exploration
+# Data Exploration
 
 ```
 # Data Exploration
@@ -67,7 +67,7 @@ sd(creditcard$Amount)
 - sd(creditcard$Amount): Calculates the standard deviation of the Amount column.
 
 
-Data Manipulation
+# Data Manipulation
 
 ```
 # Data Manipulation
@@ -90,7 +90,7 @@ View(NewData)
 
 
 
-Data Modelling
+# Data Modelling
 
 ```
 # Data Modelling
@@ -119,7 +119,7 @@ dim(test_data)
 
 
 
-Fitting a Logistic Regression Model
+# Fitting a Logistic Regression Model
 
 ```
 # Fitting Logistic Regression Model
@@ -154,7 +154,7 @@ auc.gbm = roc(test_data$Class, lr.predict, plot = TRUE, col = "blue")
 
 
 
-Fitting a Decision Tree Model
+# Fitting a Decision Tree Model
 
 
 ```
@@ -181,7 +181,7 @@ rpart.plot(decisionTree_model)
 
 
 
-Fitting an Artificial Neural Network Model
+# Fitting an Artificial Neural Network Model
 
 
 ```
